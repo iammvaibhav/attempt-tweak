@@ -1,5 +1,4 @@
 #include "Headers.h"
-#include "RemoteLog.h"
 
 static NSString* firebaseDatabaseURL = @"<--firebase-database-url-->";
 static NSString* wordToStore = nil;
@@ -245,7 +244,6 @@ static NSString* wordKeyInFirebase = nil;
  */
 %hook DDParsecServiceCollectionViewController
 -(void)doneButtonPressed:(id)arg1 {
-	RLog(@"doneButtonPressed");
 	wordToStore = nil;
 	wordKeyInFirebase = nil;
 	%orig;
