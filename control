@@ -1,0 +1,9 @@
+Package: dev.iammvaibhav.attempt
+Name: Attempt
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An attempt to improve vocabulary
+Maintainer: Vaibhav Maheshwari
+Author: Vaibhav Maheshwari
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
